@@ -192,8 +192,7 @@ abstract class InAppPurchaseConnection {
   /// user.
   ///
   /// You are responsible for completing every [PurchaseDetails] whose
-  /// [PurchaseDetails.status] is [PurchaseStatus.purchased]. Additionally on iOS,
-  /// the purchase needs to be completed if the [PurchaseDetails.status] is [PurchaseStatus.error].
+  /// [PurchaseDetails.status] is [PurchaseStatus.purchased].
   /// Completing a [PurchaseStatus.pending] purchase will cause an exception.
   /// For convenience, [PurchaseDetails.pendingCompletePurchase] indicates if a purchase is pending for completion.
   ///
